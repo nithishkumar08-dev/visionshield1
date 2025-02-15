@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Surveillance System</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>AI-Powered Surveillance System</h1>
+    <p>Select a surveillance mode:</p>
+
+    <div class="buttons">
+        <a href="/crowd"><button class="btn">Crowd Detection</button></a>
+        <a href="/crime"><button class="btn">Crime Detection</button></a>
+        <a href="/workspace"><button class="btn">Workspace Monitoring</button></a>
+    </div>
+</body>
+</html>
